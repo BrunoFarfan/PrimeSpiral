@@ -1,0 +1,28 @@
+// Contenido de .vscode/tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                "src/main.cpp",
+                "-o",
+                "build/your_output_file.exe",
+                "${workspaceFolder}/**",
+                "${config:compilerPath}",
+                "${config:compilerArgs}",
+                "${config:includePath}",
+                "-L/usr/lib",
+                "-lSDL2",
+                "-lSDL2main"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

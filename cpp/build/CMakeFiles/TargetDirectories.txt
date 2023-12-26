@@ -1,0 +1,3 @@
+/mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/build/CMakeFiles/output_file.dir
+/mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/build/CMakeFiles/rebuild_cache.dir
