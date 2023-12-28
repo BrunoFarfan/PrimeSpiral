@@ -129,6 +129,30 @@ output_file/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/build
 .PHONY : output_file/fast
 
+src/json_handler.o: src/json_handler.cpp.o
+.PHONY : src/json_handler.o
+
+# target to build an object file
+src/json_handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/json_handler.cpp.o
+.PHONY : src/json_handler.cpp.o
+
+src/json_handler.i: src/json_handler.cpp.i
+.PHONY : src/json_handler.i
+
+# target to preprocess a source file
+src/json_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/json_handler.cpp.i
+.PHONY : src/json_handler.cpp.i
+
+src/json_handler.s: src/json_handler.cpp.s
+.PHONY : src/json_handler.s
+
+# target to generate assembly for a file
+src/json_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/json_handler.cpp.s
+.PHONY : src/json_handler.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +177,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mapping.o: src/mapping.cpp.o
+.PHONY : src/mapping.o
+
+# target to build an object file
+src/mapping.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/mapping.cpp.o
+.PHONY : src/mapping.cpp.o
+
+src/mapping.i: src/mapping.cpp.i
+.PHONY : src/mapping.i
+
+# target to preprocess a source file
+src/mapping.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/mapping.cpp.i
+.PHONY : src/mapping.cpp.i
+
+src/mapping.s: src/mapping.cpp.s
+.PHONY : src/mapping.s
+
+# target to generate assembly for a file
+src/mapping.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/mapping.cpp.s
+.PHONY : src/mapping.cpp.s
+
+src/prime_computing.o: src/prime_computing.cpp.o
+.PHONY : src/prime_computing.o
+
+# target to build an object file
+src/prime_computing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/prime_computing.cpp.o
+.PHONY : src/prime_computing.cpp.o
+
+src/prime_computing.i: src/prime_computing.cpp.i
+.PHONY : src/prime_computing.i
+
+# target to preprocess a source file
+src/prime_computing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/prime_computing.cpp.i
+.PHONY : src/prime_computing.cpp.i
+
+src/prime_computing.s: src/prime_computing.cpp.s
+.PHONY : src/prime_computing.s
+
+# target to generate assembly for a file
+src/prime_computing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output_file.dir/build.make CMakeFiles/output_file.dir/src/prime_computing.cpp.s
+.PHONY : src/prime_computing.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... output_file"
+	@echo "... src/json_handler.o"
+	@echo "... src/json_handler.i"
+	@echo "... src/json_handler.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mapping.o"
+	@echo "... src/mapping.i"
+	@echo "... src/mapping.s"
+	@echo "... src/prime_computing.o"
+	@echo "... src/prime_computing.i"
+	@echo "... src/prime_computing.s"
 .PHONY : help
 
 

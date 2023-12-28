@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/output_file.dir/src/main.cpp.o -o output_file  -L/usr/lib/x86_64-linux-gnu  -lSDL2 
+/usr/bin/c++ CMakeFiles/output_file.dir/src/main.cpp.o CMakeFiles/output_file.dir/src/json_handler.cpp.o CMakeFiles/output_file.dir/src/mapping.cpp.o CMakeFiles/output_file.dir/src/prime_computing.cpp.o -o output_file  /usr/lib/x86_64-linux-gnu/libjsoncpp.so -L/usr/lib/x86_64-linux-gnu  -lSDL2 

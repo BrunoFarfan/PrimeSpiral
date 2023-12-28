@@ -83,17 +83,66 @@ CMakeFiles/output_file.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/output_file.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/main.cpp -o CMakeFiles/output_file.dir/src/main.cpp.s
 
+CMakeFiles/output_file.dir/src/json_handler.cpp.o: CMakeFiles/output_file.dir/flags.make
+CMakeFiles/output_file.dir/src/json_handler.cpp.o: /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/json_handler.cpp
+CMakeFiles/output_file.dir/src/json_handler.cpp.o: CMakeFiles/output_file.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/output_file.dir/src/json_handler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/output_file.dir/src/json_handler.cpp.o -MF CMakeFiles/output_file.dir/src/json_handler.cpp.o.d -o CMakeFiles/output_file.dir/src/json_handler.cpp.o -c /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/json_handler.cpp
+
+CMakeFiles/output_file.dir/src/json_handler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/output_file.dir/src/json_handler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/json_handler.cpp > CMakeFiles/output_file.dir/src/json_handler.cpp.i
+
+CMakeFiles/output_file.dir/src/json_handler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/output_file.dir/src/json_handler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/json_handler.cpp -o CMakeFiles/output_file.dir/src/json_handler.cpp.s
+
+CMakeFiles/output_file.dir/src/mapping.cpp.o: CMakeFiles/output_file.dir/flags.make
+CMakeFiles/output_file.dir/src/mapping.cpp.o: /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/mapping.cpp
+CMakeFiles/output_file.dir/src/mapping.cpp.o: CMakeFiles/output_file.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/output_file.dir/src/mapping.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/output_file.dir/src/mapping.cpp.o -MF CMakeFiles/output_file.dir/src/mapping.cpp.o.d -o CMakeFiles/output_file.dir/src/mapping.cpp.o -c /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/mapping.cpp
+
+CMakeFiles/output_file.dir/src/mapping.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/output_file.dir/src/mapping.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/mapping.cpp > CMakeFiles/output_file.dir/src/mapping.cpp.i
+
+CMakeFiles/output_file.dir/src/mapping.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/output_file.dir/src/mapping.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/mapping.cpp -o CMakeFiles/output_file.dir/src/mapping.cpp.s
+
+CMakeFiles/output_file.dir/src/prime_computing.cpp.o: CMakeFiles/output_file.dir/flags.make
+CMakeFiles/output_file.dir/src/prime_computing.cpp.o: /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/prime_computing.cpp
+CMakeFiles/output_file.dir/src/prime_computing.cpp.o: CMakeFiles/output_file.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/output_file.dir/src/prime_computing.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/output_file.dir/src/prime_computing.cpp.o -MF CMakeFiles/output_file.dir/src/prime_computing.cpp.o.d -o CMakeFiles/output_file.dir/src/prime_computing.cpp.o -c /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/prime_computing.cpp
+
+CMakeFiles/output_file.dir/src/prime_computing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/output_file.dir/src/prime_computing.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/prime_computing.cpp > CMakeFiles/output_file.dir/src/prime_computing.cpp.i
+
+CMakeFiles/output_file.dir/src/prime_computing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/output_file.dir/src/prime_computing.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/src/prime_computing.cpp -o CMakeFiles/output_file.dir/src/prime_computing.cpp.s
+
 # Object files for target output_file
 output_file_OBJECTS = \
-"CMakeFiles/output_file.dir/src/main.cpp.o"
+"CMakeFiles/output_file.dir/src/main.cpp.o" \
+"CMakeFiles/output_file.dir/src/json_handler.cpp.o" \
+"CMakeFiles/output_file.dir/src/mapping.cpp.o" \
+"CMakeFiles/output_file.dir/src/prime_computing.cpp.o"
 
 # External object files for target output_file
 output_file_EXTERNAL_OBJECTS =
 
 output_file: CMakeFiles/output_file.dir/src/main.cpp.o
+output_file: CMakeFiles/output_file.dir/src/json_handler.cpp.o
+output_file: CMakeFiles/output_file.dir/src/mapping.cpp.o
+output_file: CMakeFiles/output_file.dir/src/prime_computing.cpp.o
 output_file: CMakeFiles/output_file.dir/build.make
+output_file: /usr/lib/x86_64-linux-gnu/libjsoncpp.so
 output_file: CMakeFiles/output_file.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable output_file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Bruno/Desktop/ing/programación/cringe/primos_polares/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable output_file"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/output_file.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
