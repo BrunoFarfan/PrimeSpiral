@@ -5,7 +5,8 @@
             "name": "WSL",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include/SDL2"
+                "/usr/include/SDL2",
+                "/usr/include/jsoncpp"
             ],
             "defines": [
                 "_DEBUG",
@@ -25,7 +26,8 @@
             },
             "compilerArgs": [
                 "-Wall",
-                "-I/usr/include/SDL2"
+                "-I/usr/include/SDL2",
+                "-I/usr/include/jsoncpp"
             ]
         }
     ],
